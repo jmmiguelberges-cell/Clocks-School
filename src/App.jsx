@@ -181,7 +181,7 @@ function Landing({svcs,stys,user,isA,onRes,onLog,onAcc,onAdm,salonConfig}) {
             <div style={{width:8,height:8,borderRadius:'50%',background:isOpen?'var(--green)':'var(--text3)',boxShadow:isOpen?'0 0 8px var(--green)':'none',animation:isOpen?'glow 2.2s ease-in-out infinite':'none'}}/>
             <span style={{color:'var(--text3)',fontSize:12,fontWeight:500,letterSpacing:0.3}}>{isOpen?'Abierto ahora':'Cerrado'}</span>
           </div>
-          <h1 style={{fontSize:36,fontWeight:900,color:'var(--text)',letterSpacing:-2.5,lineHeight:1,marginBottom:3}}>CLOCKS</h1>
+          <h1 style={{fontSize:28,fontWeight:800,color:'var(--text)',letterSpacing:-2.5,lineHeight:1,marginBottom:3}}>CLOCKS SCHOOL</h1>
           <p style={{fontSize:11,fontWeight:700,color:'var(--purple)',letterSpacing:2.5,textTransform:'uppercase',marginBottom:4}}>School · Barbería</p>
           <p style={{fontSize:12,color:'var(--text3)'}}>Zaragoza</p>
         </div>
